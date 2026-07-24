@@ -1,0 +1,10 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+name = "hiroka"
+version = "0.1.0"
+
+[project.scripts]
+hiroka = "hiroka.__main__:main"
